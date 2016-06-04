@@ -1,5 +1,5 @@
 body {
-    background-color: #006666;
+    background-color: #002233;
     margin: 60px auto;
     width: 70%;
 }
@@ -21,19 +21,19 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    color: #ffffff;
+    color: #ffffb3;
     font-size: 3em;
     font-family: Ubuntu, sans-serif;
 }
 h2 {
-    color: #ffffff;
+    color: #ffffb3;
     font-size: 2em;
     font-family: Ubuntu, sans-serif;
 }
 p {
     font-size: 1em;
     line-height: 1.4em;
-    color: #ffffff;
+    color: #ffffb3;
 }
 footer {
     border-top: 1px solid #d5d5d5;
@@ -41,29 +41,29 @@ footer {
 }
 
 ul.posts { 
-    color: #ffffff;
+    color: #ffffb3;
     margin: 20px auto 40px; 
     font-size: 1.5em;
 }
 
 u1 {
-    color: #ffffff;
+    color: #ffffb3;
     font-size: 1.5em;
     font-family: Ubuntu, sans-serif;
 }
 
 li {
-    color: #ffffff;
+    color: #ffffb3;
     font-size: .75em;
     font-family: Ubuntu, sans-serif;;
 }
 
 ul.posts li {
-    color: #ffffff;
+    color: #ffffb3;
     list-style: none;
 }
 h3 {
-    color: #ffffff;
+    color: #ffffb3;
     font-size: 1em;
     font-family: Ubuntu, sans-serif;
 }
