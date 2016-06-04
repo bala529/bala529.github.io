@@ -4,7 +4,7 @@ body {
     width: 70%;
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: Ubuntu, sans-serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -23,12 +23,12 @@ a:hover {
 h1 {
     color: #ffffff;
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: Ubuntu, sans-serif;
 }
 h2 {
     color: #ffffff;
     font-size: 2em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: Ubuntu, sans-serif;
 }
 p {
     font-size: 1.5em;
@@ -49,13 +49,13 @@ ul.posts {
 u1 {
     color: #ffffff;
     font-size: 1.5em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: Ubuntu, sans-serif;
 }
 
 li {
     color: #ffffff;
     font-size: 1em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: Ubuntu, sans-serif;;
 }
 
 ul.posts li {
@@ -65,5 +65,5 @@ ul.posts li {
 h3 {
     color: #ffffff;
     font-size: 1.5em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: Ubuntu, sans-serif;
 }
