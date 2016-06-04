@@ -1,8 +1,8 @@
 @keyframes example {
-    0%   {background-color: red;}
-    25%  {background-color: yellow;}
-    50%  {background-color: blue;}
-    100% {background-color: green;}
+    0%   {background-color: #000033;}
+    25%  {background-color: #330033;}
+    50%  {background-color: #391414;}
+    100% {background-color: #331a00;}
 }
 body {
     background-color: #002233;
