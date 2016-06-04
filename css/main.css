@@ -37,13 +37,9 @@ a {
 }
 
 a:hover {
-    background-color: #002233;
     font-family: courier;
     font-size: 1.25em;
     color: #ffffb3;
-    padding: 3px 6px;
-    text-align: center;
-    display: inline-block;
 }
 h1 {
     color: #ffffb3;
