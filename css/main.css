@@ -1,15 +1,21 @@
 @keyframes example {
     0%   {background-color: #002233;}
-    25%  {background-color: #330033;}
-    50%  {background-color: #391414;}
-    100% {background-color: #331a00;}
+    10%  {background-color: #000033;}
+    20%  {background-color: #330033;}
+    30%  {background-color: #33001a;}
+    40%  {background-color: #330000;}
+    50%  {background-color: #331a00;}
+    60%  {background-color: #2d2d1f;}
+    70%  {background-color: #001a00;}
+    80%  {background-color: #001a33;}
+    90%  {background-color: #000033;}
 }
 body {
     background-color: #002233;
     margin: 60px auto;
     width: 70%;
     animation-name: example;
-    animation-duration: 10s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
 }
 nav ul, footer ul {
