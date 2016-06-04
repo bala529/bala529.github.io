@@ -1,7 +1,7 @@
 body {
     background-color: #002233;
     margin: 60px auto;
-    width: 70%;
+    width: auto;
 }
 nav ul, footer ul {
     font-family: courier;
