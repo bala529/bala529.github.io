@@ -9,6 +9,7 @@
     70%  {background-color: #001a00;}
     80%  {background-color: #001a33;}
     90%  {background-color: #000033;}
+    100%  {background-color: #000033;}
 }
 body {
     background-color: #002233;
@@ -16,6 +17,7 @@ body {
     width: 70%;
     animation-name: example;
     animation-duration: 100s;
+    animation-direction: alternate;
     animation-iteration-count: infinite;
 }
 nav ul, footer ul {
