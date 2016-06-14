@@ -68,6 +68,15 @@ h1 {
     font-family: "Lato",sans-serif;
     animation: bounceIn 3s;
 }
+
+h1.hover {
+    color: #ffffb3;
+    font-size: 3em;
+    font-family: "Lato",sans-serif;
+    animation: bounceIn 2s;
+}
+
+
 h2 {
     color: #ffffb3;
     font-size: 2em;
