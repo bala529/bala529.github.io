@@ -1,4 +1,244 @@
 
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+span {
+  display: block;
+  height: 30em;
+  left: calc(50% - 15em);
+  position: absolute;
+  top: calc(50% - 15em);
+  width: 30em;
+}
+
+.large-circles {
+  animation: spin 8s linear infinite;
+  -moz-animation: spin 8s linear infinite;
+  -webkit-animation: spin 8s linear infinite;
+}
+
+.large-ellipses {
+  animation: spin-counterclockwise 30s linear infinite;
+  -moz-animation: spin-counterclockwise 30s linear infinite;
+  -webkit-animation: spin-counterclockwise 30s linear infinite;
+}
+
+.small-ellipses {
+  animation: spin 20s linear infinite;
+  -moz-animation: spin 20s linear infinite;
+  -webkit-animation: spin 20s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotateZ(0);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+@-moz-keyframes spin {
+  0% {
+    -moz-transform: rotateZ(0);
+  }
+  100% {
+    -moz-transform: rotateZ(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotateZ(0);
+  }
+  100% {
+    -webkit-transform: rotateZ(360deg);
+  }
+}
+
+
+@keyframes spin-counterclockwise {
+  0% {
+    transform: rotateZ(0);
+  }
+  100% {
+    transform: rotateZ(-360deg);
+  }
+}
+
+@-moz-keyframes spin-counterclockwise {
+  0% {
+    -moz-transform: rotateZ(0);
+  }
+  100% {
+    -moz-transform: rotateZ(-360deg);
+  }
+}
+
+@-webkit-keyframes spin-counterclockwise {
+  0% {
+    -webkit-transform: rotateZ(0);
+  }
+  100% {
+    -webkit-transform: rotateZ(-360deg);
+  }
+}
+
+@keyframes pulse {
+  0% {background: rgba(46,139,87, 0.75);} 
+  12.5% {background: rgba(60,179,113, 0.75);}
+  25% {background: rgba(0,128,128, 0.75);}
+  37.5% {background: rgba(0,206,209, 0.75);}
+  50% {background: rgba(127,255,212, 0.75);}
+  62.5% {background: rgba(135,206,235, 0.75);}
+  75% {background: rgba(135,206,235, 0.75);}
+  87.5% {background: rgba(65,105,225, 0.75);}
+  100% {background: rgba(46,139,87, 0.75);}
+}
+
+@-moz-keyframes pulse {
+  0% {background: rgba(46,139,87, 0.75);} 
+  12.5% {background: rgba(60,179,113, 0.75);}
+  25% {background: rgba(0,128,128, 0.75);}
+  37.5% {background: rgba(0,206,209, 0.75);}
+  50% {background: rgba(127,255,212, 0.75);}
+  62.5% {background: rgba(135,206,235, 0.75);}
+  75% {background: rgba(135,206,235, 0.75);}
+  87.5% {background: rgba(65,105,225, 0.75);}
+  100% {background: rgba(46,139,87, 0.75);}
+}
+
+@-webkit-keyframes pulse {
+  0% {background: rgba(46,139,87, 0.75);} 
+  12.5% {background: rgba(60,179,113, 0.75);}
+  25% {background: rgba(0,128,128, 0.75);}
+  37.5% {background: rgba(0,206,209, 0.75);}
+  50% {background: rgba(127,255,212, 0.75);}
+  62.5% {background: rgba(135,206,235, 0.75);}
+  75% {background: rgba(135,206,235, 0.75);}
+  87.5% {background: rgba(65,105,225, 0.75);}
+  100% {background: rgba(46,139,87, 0.75);}
+}
+ 
+.circle {
+  border-top: 0.1em solid rgba(255, 255, 255, 0.4);
+  height: 12em;
+  position: absolute;
+  width: 12em;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  box-shadow: 0 1em 2em rgba(0, 0, 0, 0.5);
+  left: calc(50% - 6em);
+  top: calc(50% - 12em);
+  transform-origin: 50% 12em;
+  -moz-transform-origin: 50% 12em;
+  -webkit-transform-origin: 50% 12em;
+  
+}
+
+.one {
+  transform: rotateZ(360deg);
+  -moz-transform: rotateZ(360deg);
+  -webkit-transform: rotateZ(360deg);
+  animation: pulse 16s infinite;
+  -moz-animation: pulse 16s infinite;
+  -webkit-animation: pulse 16s infinite;
+}
+
+.two {
+  transform: rotateZ(270deg);
+  -moz-transform: rotateZ(270deg);
+  -webkit-transform: rotateZ(270deg);
+  animation: pulse 16s ease -2s infinite;
+  -moz-animation: pulse 16s ease -2s infinite;
+  -webkit-animation: pulse 16s ease -2s infinite;
+}
+
+.three {
+  transform: rotateZ(180deg);
+  -moz-transform: rotateZ(180deg);
+  -webkit-transform: rotateZ(180deg);
+  animation: pulse 16s ease -4s infinite;
+  -moz-animation: pulse 16s ease -4s infinite;
+  -webkit-animation: pulse 16s ease -4s infinite;
+}
+
+.four {
+  transform: rotateZ(90deg);
+  -moz-transform: rotateZ(90deg);
+  -webkit-transform: rotateZ(90deg);
+  animation: pulse 16s ease -6s infinite;
+  -moz-animation: pulse 16s ease -6s infinite;
+  -webkit-animation: pulse 16s ease -6s infinite;
+}
+
+.five {
+  transform: rotateZ(315deg);
+  -moz-transform: rotateZ(315deg);
+  -webkit-transform: rotateZ(315deg);
+  animation: pulse 16s ease -8s infinite;
+  -moz-animation: pulse 16s ease -8s infinite;
+  -webkit-animation: pulse 16s ease -8s infinite;
+}
+
+.six {
+  transform: rotateZ(225deg);
+  -moz-transform: rotateZ(225deg);
+  -webkit-transform: rotateZ(225deg);
+  animation: pulse 16s ease -10s infinite;
+  -moz-animation: pulse 16s ease -10s infinite;
+  -webkit-animation: pulse 16s ease -10s infinite;
+}
+
+.seven {
+  transform: rotateZ(135deg);
+  -moz-transform: rotateZ(135deg);
+  -webkit-transform: rotateZ(135deg);
+  animation: pulse 16s ease -12s infinite;
+  -moz-animation: pulse 16s ease -12s infinite;
+  -webkit-animation: pulse 16s ease -12s infinite;
+}
+
+.eight {
+  transform: rotateZ(45deg);
+  -moz-transform: rotateZ(45deg);
+  -webkit-transform: rotateZ(45deg);
+  animation: pulse 16s ease -14s infinite;
+  -moz-animation: pulse 16s ease -14s infinite;
+  -webkit-animation: pulse 16s ease -14s infinite;
+}
+
+.large_ellipse {
+  width: 4em;
+  height: 8em;
+  left: calc(50% - 2em);
+  top: calc(50% - 15em);
+  transform-origin: 50% 15em;
+  -moz-transform-origin: 50% 15em;
+  -webkit-transform-origin: 50% 15em;
+  box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.2);
+}
+
+.small_ellipse {
+  border-top: none;
+  width: 2em;
+  height: 5em;
+  left: calc(50% - 1em);
+  top: calc(50% - 5em);
+  transform-origin: 50% 5em;
+  -moz-transform-origin: 50% 5em;
+  -webkit-transform-origin: 50% 5em;
+  box-shadow: 0 0 0.1em rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
 .ball-container {
   width: 342px;
   margin: 0 auto; 
