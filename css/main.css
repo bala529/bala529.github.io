@@ -1,16 +1,16 @@
 
 
 .containerr {
-  width: 100px;
-  height: 200px;
+  width: 200px;
+  height: 100px;
   padding-top: 100px;
   margin: 0 auto;
 }
 
 .ball {
-  width: 10px;
-  height: 10px;
-  margin: 10px auto;
+  width: 15px;
+  height: 15px;
+  margin: 15px auto;
   border-radius: 50px;
   }    
     .ball:nth-child(1) {
