@@ -133,10 +133,9 @@ h1 {
 }
 
 h1:hover {
-    color: #ffffb3;
+    color: #9999ff;
     font-size: 3em;
     font-family: "Lato",sans-serif;
-    animation: bounceIn 3s;
 }
 
 
